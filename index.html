@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeMon Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    
+    
+
+    <div class="main">
+        <div class="top">
+            <h1>
+               <img src="pokemon log.png">
+            </h1>
+            <select name="type" id="type">
+                   <option value="">Select Type</option>
+                   <option value="normal">Normal</option>
+                   <option value="fire">Fire</option>
+                   <option value="water">Water</option>
+                   <option value="grass">Grass</option>
+                   <option value="electric">Electric</option>
+                   <option value="ice">Ice</option>
+                   <option value="fighting">Fighting</option>
+                   <option value="poison">Poison</option>
+                   <option value="ground">Ground</option>
+                   <option value="bug">Bug</option>
+                </select>
+                <input type="button" value="Fliter by Type"  id="typeBtn">
+                <br>
+                <input type="text" id="search" placeholder="Search by Name">
+        </div>
+        <div class="card-container" id="contaiter">
+            <!-- Cards will be dynamically generated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
