@@ -4,7 +4,7 @@ A fun web application that displays Pokémon cards with dynamic features such as
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://sunnykumar-code.github.io/PokeMon-Card/).
 
 ## Features
 
